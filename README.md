@@ -177,6 +177,28 @@ urlpatterns = [
 
 urlpatterns += staticfiles_urlpatterns()
 ```
+## ``Notification``
+- ``Create a javascript file in assets``
+- ``Network permission``
+```javascript
+Notification.requestPermission(function (status) {
+    console.log('Notification permission status:', status);
+});
+```
+- ``Notification Prompt``
+```javascript
+function displayNotification() {
+  if (Notification.permission == 'granted') {
+    navigator.serviceWorker.getRegistration().then(function(reg) {
+      reg.showNotification('Hello world!');
+    });
+  }
+}
+
+displayNotification() // function call
+```
+
+
 
 ## ``Screenshorts``
 
