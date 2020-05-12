@@ -177,3 +177,7 @@ urlpatterns = [
 
 urlpatterns += staticfiles_urlpatterns()
 ```
+
+<footer class="footer fixed-bottom text-center font-weight-bolder card-body-col">
+        <p>Made with <span style="color: #e25555;">❤️</span>in Quarantine 😂 </p>
+    </footer>
