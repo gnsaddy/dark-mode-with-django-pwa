@@ -182,7 +182,7 @@ urlpatterns += staticfiles_urlpatterns()
 
 <p>
 
-<img alt="darkTheme" href="./assets/Capture.PNG">
+<img alt="darkTheme" src="assets/Capture.PNG">
 </p>
 
 ##
