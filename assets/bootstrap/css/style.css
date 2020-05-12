@@ -1,0 +1,64 @@
+html {
+  --bg-color: #f5f6f9;
+  --bg-card-color: #fff;
+  --bg-card-head: #f8f8f8;
+  --border-card-color: #ece8e8;
+  --card-title-color: #252525;
+  --card-text-color: #333;
+  --bg-btn-color: #222;
+}
+
+html[data-theme='dark'] {
+  --bg-color: #333;
+  --bg-card-color: #252525;
+  --bg-card-head: #00ad82;
+  --border-card-color: #3a3a3a;
+  --card-title-color: #00ad82;
+  --card-text-color: #bdbdbd;
+  --bg-btn-color: #fff;
+}
+
+body {
+  font-family: Montserrat, Roboto, serif;
+  background: var(--bg-color);
+}
+
+.card-col {
+  background: var(--bg-card-color);
+  text-align: justify;
+  border-radius: 8px;
+  /*border: 2px solid var(--card-title-color);*/
+  color: var(--card-title-color);
+  box-shadow: 2px 2px 2px var(--card-title-color);
+}
+
+.card-body-col > p {
+  color: var(--card-title-color);
+}
+
+
+.btn-col {
+  border: 2px solid var(--card-title-color);
+  padding: 0.7rem 2.2rem;
+  background: var(--bg-btn-color);
+  color: var(--card-title-color);
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px var(--border-card-color);
+}
+
+.btn-animation {
+  transform: rotateY(360deg);
+  transition: all 1s;
+  transition-duration: 1s;
+}
+
+html.transition,
+html.transition *,
+html.transition *:before,
+html.transition *:after {
+  transition: all 800ms !important;
+  transition-delay: 0.1ms !important;
+}

@@ -1,0 +1,53 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="{% static 'img/icons/icon-96x96.png' %}" sizes="16x16">
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'bootstrap/css/style.css' %}">
+    <link rel="manifest" href="{% static 'manifest.json' %}">
+    <title>Dark Mode</title>
+</head>
+<body>
+<main>
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent text-center font-weight-bolder">
+        <a class="navbar-brand card-body-col text-center" href="#"><p>Dark Mode</p></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="card m-auto card-col">
+                <div class="card-header bg-transparent card-body-col">
+                    <p>Dark Mode Using CSS and JavaScript.</p>
+                </div>
+                <div class="card-body text-center card-body-col">
+                    <p class="title">Click to switch Modes</p>
+                    <button class="btn bg-transparent btn-animation btn-col" id="btn">Dark</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <footer class="footer fixed-bottom text-center font-weight-bolder card-body-col">
+        <p>Made with <span style="color: #e25555;">❤️</span>in Quarantine 😂 </p>
+    </footer>
+
+</main>
+
+
+<script src="{% static 'bootstrap/js/jquery-min.js' %}"></script>
+<script src="{% static 'bootstrap/js/bootstrap.js' %}"></script>
+<script src="{% static 'bootstrap/js/popper.min.js' %}"></script>
+<script src="{% static 'bootstrap/js/tooltip.min.js' %}"></script>
+<script src="{% static 'js/dark.js' %}"></script>
+<script src="{% static 'js/app.js' %}"></script>
+</body>
+</html>
