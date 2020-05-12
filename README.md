@@ -11,6 +11,17 @@
 - ``Django staticfile handling`` <br>
 
 
+## Django App/PWA
+``Start Project``
+- django-admin startproject django_pwa <br>
+``Start App`` ``->`` ``Go to project folder``
+- python manage.py startapp app <br>
+``Runnig server`` ``->`` ``Go to project folder``
+- python manage.py runserver
+
+
+
+
 ## ``Service Worker Javascript``
 ```javascript
 const staticCacheName = "static-cache" + '-' + new Date().getDate() + ':' + new Date().getHours() + ':' + new Date().getSeconds();
