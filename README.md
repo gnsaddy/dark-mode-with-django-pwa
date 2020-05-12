@@ -93,6 +93,8 @@ image files.
 
 
 
+
+
 ## ``Service Worker Javascript``
 ```javascript
 const staticCacheName = "static-cache" + '-' + new Date().getDate() + ':' + new Date().getHours() + ':' + new Date().getSeconds();
