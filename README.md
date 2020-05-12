@@ -101,11 +101,6 @@ if ('serviceWorker' in navigator) {
 
 ```
 
-
-
-
-
-
 ## ``Service Worker Javascript``
 ```javascript
 const staticCacheName = "static-cache" + '-' + new Date().getDate() + ':' + new Date().getHours() + ':' + new Date().getSeconds();
@@ -160,3 +155,4 @@ self.addEventListener("fetch", event => {
     )
 });
 ```
+## ``Setup urls.py to configure serviceworker.js javascript file``
