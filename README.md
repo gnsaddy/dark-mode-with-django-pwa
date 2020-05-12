@@ -179,7 +179,7 @@ urlpatterns += staticfiles_urlpatterns()
 ```
 
 
-<p align="center">
+<p align="center" class="text-center">
   <b>Some Links:</b><br>
   <a href="#">Link 1</a> |
   <a href="#">Link 2</a> |
