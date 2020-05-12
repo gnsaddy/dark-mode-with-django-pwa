@@ -102,6 +102,7 @@ if ('serviceWorker' in navigator) {
 ```
 
 ## ``Service Worker Javascript``
+``add serviceworker.js javascript to app/templates folder``
 ```javascript
 const staticCacheName = "static-cache" + '-' + new Date().getDate() + ':' + new Date().getHours() + ':' + new Date().getSeconds();
 const filesToCache = [
@@ -156,3 +157,14 @@ self.addEventListener("fetch", event => {
 });
 ```
 ## ``Setup urls.py to configure serviceworker.js javascript file``
+- `` Open project directory and open urls.py``
+```urls
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('', views.Home.as_view(), name="home"),
+    path('offline', views.Offline.as_view(), name="offline"),
+    path('sw.js', (TemplateView.as_view(template_name="sw.js", content_type='application/javascript', )), name='sw.js'),
+]
+
+urlpatterns += staticfiles_urlpatterns()
+```
