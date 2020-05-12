@@ -178,6 +178,12 @@ urlpatterns = [
 urlpatterns += staticfiles_urlpatterns()
 ```
 
+## ``Screenshorts``
+
+<p>
+
+<img alt="darkTheme" href="./assets/Capture.PNG">
+</p>
 
 ##
 <p align="center">Made with <span style="color: #e25555;">❤ </span>in Quarantine 😂 </p>
