@@ -180,10 +180,8 @@ urlpatterns += staticfiles_urlpatterns()
 
 ## ``Screenshorts``
 
-<p clign="center">
-
-<img alt="darkTheme" src="assets/Capture.PNG" width="250">
-<img alt="lightTheme" src="assets/Capture1.PNG" width="250">
+<p align="center">
+<img alt="darkTheme" src="assets/Capture.PNG" width="250"> <img alt="lightTheme" src="assets/Capture1.PNG" width="250">
 </p>
 
 ##
