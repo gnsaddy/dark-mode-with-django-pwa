@@ -12,12 +12,24 @@
 
 
 ## Django App/PWA
-``Start Project``
 - django-admin startproject django_pwa <br>
 ``Start App`` ``->`` ``Go to project folder``
 - python manage.py startapp app <br>
 ``Runnig server`` ``->`` ``Go to project folder``
 - python manage.py runserver
+
+## Django staticfiles
+```staticfiles
+Adding staticfiles to Django project
+--------------------------------------
+Go to settings.py file and add this line
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'assets'),
+]
+
+
+
+```
 
 
 
