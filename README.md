@@ -178,8 +178,9 @@ urlpatterns = [
 urlpatterns += staticfiles_urlpatterns()
 ```
 
-<html>
-<footer class="footer fixed-bottom text-center font-weight-bolder card-body-col">
-        <p>Made with <span style="color: #e25555;">❤ </span>in Quarantine 😂 </p>
-    </footer>
-    </html>
+
+---
+<center>Centered text</center>
+<p>Made with <span style="color: #e25555;">❤ </span>in Quarantine 😂 </p>
+    
+        
