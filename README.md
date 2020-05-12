@@ -10,6 +10,15 @@
 - ``Web Manifest Feature `` <br>
 - ``Django staticfile handling`` <br>
 
+## ``Technology Stack``
+- ``Django``
+- ``JavaScript``
+- ``HTML5``
+- ``CSS3``
+- ``Bootstrap``
+- ``pwa``
+- ``Notification API``
+- ``Fontawesome5``
 
 ## ``Django App/PWA``
 - django-admin startproject django_pwa <br>
