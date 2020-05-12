@@ -26,7 +26,8 @@ Go to settings.py file and add this line
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'assets'),
 ]
-
+where assets is a folder which contain the static files
+such as css,bootstrap,js and image files.
 
 
 ```
